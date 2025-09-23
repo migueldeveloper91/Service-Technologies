@@ -43,10 +43,11 @@ Desarrollar y ofrecer soluciones tecnológicas innovadoras y personalizadas que 
 ---
 
 ## 👨‍💻 Autores  
-Proyecto desarrollado por:  
+Proyecto desarrollado por:
+- Diana Marcela Arevalo Arevalo
 - David Leonardo Caicedo Calderón  
 - Omar Alexander Navarro Gutiérrez  
 - Hector Mario Asprilla Angulo  
 - Leidy Viviana Ortega Araque  
-- Miguel Augusto Rojas Hernández  
+- Miguel Augusto Rojas Hernández
 
