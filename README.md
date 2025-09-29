@@ -8,7 +8,6 @@ La página incluye:
 - **Página de Servicios (proyecto.html):** catálogo interactivo de servicios como desarrollo web, apps móviles, consultoría IT, ciberseguridad, analítica de datos y cloud computing.  
 - **Diseño moderno (style.css):** estilos responsivos con gradientes, tipografía clara y componentes visuales atractivos.  
 - **Animaciones (script.js):** animaciones de entrada en tarjetas de servicios para mejorar la experiencia del usuario.  
-
 ---
 
 ## 🎯 Objetivo general  
