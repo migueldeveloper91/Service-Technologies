@@ -169,6 +169,7 @@ npm run dev
 ## ✨ Autores
 
 Desarrollado por **Miguel Rojas**
-Desarrollado por **Diana Marcela Arevalo**
+
+ **Diana Marcela Arevalo**
 
 © 2025 **Service-Technologies**. Todos los derechos reservados.
