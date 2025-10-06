@@ -107,6 +107,18 @@ service-technologies/
 | `ServiceDetail.jsx`  | Muestra título, imagen, precio y descripción extensa del servicio.                 |
 | `App.jsx`            | Define la estructura principal y las rutas de la aplicación.                       |
 | `main.jsx`           | Punto de inicio que monta la app React.                                            |
+---
+
+---
+---
+## 📁 Documentación de la Base de Datos
+
+Esta sección contiene los archivos clave para la configuración del esquema de la base de datos.
+
+* **[Esquema de Base de Datos (database.md)](/base_datos/database.md)**: Detalle completo de las tablas, campos y relaciones (usuario, servicio, pedido).
+* **[Script SQL Completo (bd_servicios_tegnologicos.sql)](/base_datos/bd_servicios_tegnologicos.sql)**: Archivo ejecutable para crear y poblar la BD en cualquier servidor.
+
+---
 
 ---
 
