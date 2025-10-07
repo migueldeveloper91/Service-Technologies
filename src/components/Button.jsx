@@ -11,11 +11,11 @@ export default function Button({ text, onClick, className = "" }) {
     <button
       onClick={onClick}
       className={`
-        bg-gradient-to-r from-[#ff416c] to-[#ff4b2b]
-        text-[#ffffff] font-semibold px-6 py-3 rounded-full
-        shadow-md hover:opacity-90 cursor-pointer transition-all duration-200
-        ${className}
-      `}
+    bg-gradient-to-r from-[#ff416c] to-[#ff4b2b]
+    text-[#ffffff] font-semibold px-6 py-3 rounded-full
+    shadow-md hover:opacity-90 cursor-pointer transition-all duration-200 w-auto
+    ${className} 
+  `}
     >
       {text}
     </button>

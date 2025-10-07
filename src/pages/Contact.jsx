@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-
+import { useState } from "react";
+import Button from "../components/Button";
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     nombre: "",
@@ -26,9 +26,9 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-blue-100 p-6">
+    <div className="min-h-screen flex items-center justify-center bg-[#4448E6]  from-blue-50 to-blue-100 p-6">
       <div className="w-full max-w-lg bg-white shadow-lg rounded-2xl p-8 border border-gray-200">
-        <h2 className="text-3xl font-bold text-center text-blue-700 mb-6">
+        <h2 className="text-3xl font-bold text-center text-[#4448E6] mb-6">
           Formulario de Contacto
         </h2>
 
@@ -48,7 +48,7 @@ const ContactForm = () => {
               onChange={handleChange}
               required
               placeholder="Tu nombre"
-              className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-400 focus:outline-none"
+              className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#4448E6]"
             />
           </div>
 
@@ -67,7 +67,7 @@ const ContactForm = () => {
               onChange={handleChange}
               required
               placeholder="tucorreo@empresa.com"
-              className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-400 focus:outline-none"
+              className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#4448E6]"
             />
           </div>
 
@@ -85,7 +85,7 @@ const ContactForm = () => {
               value={formData.telefono}
               onChange={handleChange}
               placeholder="Ej: +57 300 1234567"
-              className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-400 focus:outline-none"
+              className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#4448E6]"
             />
           </div>
 
@@ -104,7 +104,7 @@ const ContactForm = () => {
               onChange={handleChange}
               required
               placeholder="Motivo de contacto"
-              className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-400 focus:outline-none"
+              className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#4448E6]"
             />
           </div>
 
@@ -123,16 +123,10 @@ const ContactForm = () => {
               onChange={handleChange}
               required
               placeholder="Escribe tu mensaje aquí..."
-              className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-400 focus:outline-none"
+              className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#4448E6]"
             ></textarea>
           </div>
-
-          <button
-            type="submit"
-            className="w-full py-3 mt-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg shadow transition-all"
-          >
-            Enviar mensaje
-          </button>
+          <Button text="Enviar mensaje" className="w-full" />
 
           {enviado && (
             <p className="text-center text-green-600 mt-4 font-medium">

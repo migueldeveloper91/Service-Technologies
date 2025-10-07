@@ -1,14 +1,15 @@
-import { useNavigate } from "react-router-dom";
 import {
-  ShieldCheck,
-  Lightbulb,
-  Handshake,
-  Zap,
-  Users,
   Award,
-  Target,
   Eye,
+  Handshake,
+  Lightbulb,
+  ShieldCheck,
+  Target,
+  Users,
+  Zap,
 } from "lucide-react"; // Íconos
+import { useNavigate } from "react-router-dom";
+import Button from "../components/Button";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -63,22 +64,22 @@ export default function Home() {
         {/* Contenido principal */}
         <div className="relative z-10 max-w-3xl">
           <h1 className="text-5xl md:text-6xl font-extrabold leading-tight mb-6 drop-shadow-md">
-            <span className="text-yellow-300">Service-Technologies</span>
+            <span className="text-white">Service-Technologies</span>
           </h1>
 
           <p className="text-lg md:text-xl text-blue-100 mb-8 leading-relaxed">
-            Innovamos para mantener tu tecnología en marcha, brindando soluciones{" "}
-            <strong className="text-white">seguras, ágiles y confiables</strong> que impulsan
-            el crecimiento de tu empresa.
+            Innovamos para mantener tu tecnología en marcha, brindando
+            soluciones{" "}
+            <strong className="text-white">seguras, ágiles y confiables</strong>{" "}
+            que impulsan el crecimiento de tu empresa.
           </p>
 
           {/* Botón de acción */}
-          <button
+
+          <Button
+            text="Explorar Servicios"
             onClick={() => navigate("/services")}
-            className="bg-yellow-400 text-blue-900 font-semibold px-8 py-3 rounded-full shadow-lg hover:bg-yellow-300 hover:shadow-xl transition-transform transform hover:scale-105"
-          >
-            Explorar Servicios
-          </button>
+          />
         </div>
 
         {/* Ondas decorativas al fondo */}
@@ -116,17 +117,22 @@ export default function Home() {
               ¿Quiénes Somos?
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed">
-              En <span className="font-semibold text-blue-700">Service-Technologies</span>,
-              somos una empresa especializada en ofrecer{" "}
-              <strong>soluciones tecnológicas innovadoras</strong> que impulsan la
-              productividad y seguridad digital de nuestros clientes.
+              En{" "}
+              <span className="font-semibold text-blue-700">
+                Service-Technologies
+              </span>
+              , somos una empresa especializada en ofrecer{" "}
+              <strong>soluciones tecnológicas innovadoras</strong> que impulsan
+              la productividad y seguridad digital de nuestros clientes.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Nuestro equipo está conformado por profesionales apasionados por la
-              tecnología, enfocados en brindar{" "}
-              <strong>servicios confiables, personalizados y de alta calidad</strong>.
-              Creemos en el poder de la innovación y el trabajo en equipo para generar
-              valor y confianza en cada proyecto.
+              Nuestro equipo está conformado por profesionales apasionados por
+              la tecnología, enfocados en brindar{" "}
+              <strong>
+                servicios confiables, personalizados y de alta calidad
+              </strong>
+              . Creemos en el poder de la innovación y el trabajo en equipo para
+              generar valor y confianza en cada proyecto.
             </p>
 
             {/* Iconos destacados */}
@@ -135,14 +141,18 @@ export default function Home() {
                 <div className="bg-blue-100 p-3 rounded-xl group-hover:bg-blue-600 transition">
                   <ShieldCheck className="w-6 h-6 text-blue-700 group-hover:text-white transition" />
                 </div>
-                <span className="font-medium text-gray-800">Calidad y Seguridad</span>
+                <span className="font-medium text-gray-800">
+                  Calidad y Seguridad
+                </span>
               </div>
 
               <div className="flex items-center gap-3 group">
                 <div className="bg-blue-100 p-3 rounded-xl group-hover:bg-blue-600 transition">
                   <Lightbulb className="w-6 h-6 text-blue-700 group-hover:text-white transition" />
                 </div>
-                <span className="font-medium text-gray-800">Innovación Constante</span>
+                <span className="font-medium text-gray-800">
+                  Innovación Constante
+                </span>
               </div>
 
               <div className="flex items-center gap-3 group">
@@ -156,7 +166,9 @@ export default function Home() {
                 <div className="bg-blue-100 p-3 rounded-xl group-hover:bg-blue-600 transition">
                   <Zap className="w-6 h-6 text-blue-700 group-hover:text-white transition" />
                 </div>
-                <span className="font-medium text-gray-800">Soluciones Ágiles</span>
+                <span className="font-medium text-gray-800">
+                  Soluciones Ágiles
+                </span>
               </div>
             </div>
           </div>
@@ -178,10 +190,12 @@ export default function Home() {
             </div>
             <p className="text-gray-700 leading-relaxed text-justify">
               Brindar{" "}
-              <strong>servicios tecnológicos eficientes, seguros y sostenibles</strong>{" "}
+              <strong>
+                servicios tecnológicos eficientes, seguros y sostenibles
+              </strong>{" "}
               que fortalezcan la infraestructura digital de empresas y personas,
-              garantizando soporte continuo, alto rendimiento y confianza en cada
-              solución implementada.
+              garantizando soporte continuo, alto rendimiento y confianza en
+              cada solución implementada.
             </p>
           </div>
 
@@ -194,10 +208,11 @@ export default function Home() {
               <h3 className="text-2xl font-semibold text-blue-700">Visión</h3>
             </div>
             <p className="text-gray-700 leading-relaxed text-justify">
-              Ser reconocidos para el <strong>2030</strong> como una empresa líder en
-              soluciones informáticas integrales en Colombia y Latinoamérica,
-              destacándonos por la excelencia técnica, la innovación constante y el
-              acompañamiento humano que brindamos en cada servicio.
+              Ser reconocidos para el <strong>2030</strong> como una empresa
+              líder en soluciones informáticas integrales en Colombia y
+              Latinoamérica, destacándonos por la excelencia técnica, la
+              innovación constante y el acompañamiento humano que brindamos en
+              cada servicio.
             </p>
           </div>
         </div>
