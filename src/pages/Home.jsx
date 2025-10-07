@@ -54,9 +54,9 @@ export default function Home() {
   ];
 
   return (
-    <div className="bg-gray-50 text-gray-800">
+    <div className="bg-[#4448E6] text-gray-800">
       {/* Sección principal (Hero) */}
-      <section className="relative flex flex-col items-center justify-center text-center py-12 mt-12 px-6 overflow-hidden bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 text-white">
+      <section className="relative flex flex-col min-h-160 items-center justify-center text-center py-12 mt-12 px-6 overflow-hidden bg-gradient-to-br from-[#4448E6]  to-[#4448E6] br-[#4448e6] text-white">
         {/* Círculos decorativos animados */}
         <div className="absolute top-10 left-10 w-40 h-40 bg-blue-400 rounded-full mix-blend-overlay blur-3xl opacity-20 animate-pulse"></div>
         <div className="absolute bottom-10 right-10 w-60 h-60 bg-indigo-500 rounded-full mix-blend-overlay blur-3xl opacity-30 animate-ping"></div>
@@ -84,7 +84,7 @@ export default function Home() {
 
         {/* Ondas decorativas al fondo */}
         <svg
-          className="absolute bottom-0 left-0 w-full text-blue-50 opacity-10"
+          className="absolute bottom-0 left-0 w-full text-[#0c0e60] opacity-10"
           viewBox="0 0 1440 320"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -113,12 +113,12 @@ export default function Home() {
 
           {/* Texto descriptivo */}
           <div className="md:w-1/2 space-y-5">
-            <h2 className="text-4xl font-extrabold text-blue-700 mb-3">
+            <h2 className="text-4xl font-extrabold text-[#4448E6] mb-3">
               ¿Quiénes Somos?
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed">
               En{" "}
-              <span className="font-semibold text-blue-700">
+              <span className="font-semibold text-[#4448E6]">
                 Service-Technologies
               </span>
               , somos una empresa especializada en ofrecer{" "}
@@ -184,9 +184,9 @@ export default function Home() {
           <div className="group bg-white p-8 rounded-3xl shadow-md border border-blue-100 hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
             <div className="flex items-center mb-4">
               <div className="bg-blue-100 p-3 rounded-full mr-3 group-hover:bg-blue-600 transition">
-                <Target className="w-7 h-7 text-blue-700 group-hover:text-white transition" />
+                <Target className="w-7 h-7 text-[#4448E6] group-hover:text-white transition" />
               </div>
-              <h3 className="text-2xl font-semibold text-blue-700">Misión</h3>
+              <h3 className="text-2xl font-semibold text-[#4448E6]">Misión</h3>
             </div>
             <p className="text-gray-700 leading-relaxed text-justify">
               Brindar{" "}
@@ -203,9 +203,9 @@ export default function Home() {
           <div className="group bg-white p-8 rounded-3xl shadow-md border border-blue-100 hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
             <div className="flex items-center mb-4">
               <div className="bg-blue-100 p-3 rounded-full mr-3 group-hover:bg-blue-600 transition">
-                <Eye className="w-7 h-7 text-blue-700 group-hover:text-white transition" />
+                <Eye className="w-7 h-7 text-[#4448E6] group-hover:text-white transition" />
               </div>
-              <h3 className="text-2xl font-semibold text-blue-700">Visión</h3>
+              <h3 className="text-2xl font-semibold text-[#4448E6]">Visión</h3>
             </div>
             <p className="text-gray-700 leading-relaxed text-justify">
               Ser reconocidos para el <strong>2030</strong> como una empresa
@@ -220,7 +220,7 @@ export default function Home() {
 
       {/* Valores */}
       <section className="max-w-6xl mx-auto py-20 px-6">
-        <h2 className="text-4xl font-extrabold text-blue-700 text-center mb-12 tracking-tight">
+        <h2 className="text-4xl font-extrabold text-white text-center mb-12 tracking-tight">
           Nuestros Valores
         </h2>
 
