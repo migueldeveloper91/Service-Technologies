@@ -8,6 +8,13 @@ Panel administrativo y sitio informativo para **Service-Technologies**, desarrol
 
 ---
 
+## 🚀Proyecto en línea:  
+
+El proyecto está desplegado en **Vercel**.  
+Puedes verlo en el siguiente enlace:
+
+🔗 [https://service-technologies.vercel.app/](https://service-technologies.vercel.app/)
+
 ## 🚀 Funcionalidades Principales
 
 - 🔐 Autenticación segura con Supabase.
@@ -139,7 +146,7 @@ Esta sección contiene los archivos clave para la configuración del esquema de 
 
 ```bash
 # 1️⃣ Clonar el repositorio
-git clone https://github.com/tuusuario/service-technologies.git
+git clone https://github.com/migueldeveloper91/service-technologies.git
 
 # 2️⃣ Instalar dependencias
 cd service-technologies
@@ -168,8 +175,8 @@ npm run dev
 
 ## ✨ Autores
 
-Desarrollado por **Miguel Rojas**
-
- **Diana Marcela Arevalo**
+Desarrollado por 
+**Miguel Rojas**
+**Diana Marcela Arevalo**
 
 © 2025 **Service-Technologies**. Todos los derechos reservados.
